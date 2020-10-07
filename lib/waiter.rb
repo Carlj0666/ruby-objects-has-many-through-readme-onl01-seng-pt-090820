@@ -28,7 +28,3 @@ class Waiter
   end
   
 end
-
-
-# #waiters
-#       returns an Array of Waiter instances associated with this customer's meals
