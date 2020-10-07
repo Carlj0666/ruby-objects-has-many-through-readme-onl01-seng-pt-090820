@@ -43,6 +43,8 @@ binding.pry
     Meal.all.select do |meal|
       if meal.waiter.tip > biggest_tip
         biggest_tip = meal.waiter
+      end
+    end
   end
 
 end
