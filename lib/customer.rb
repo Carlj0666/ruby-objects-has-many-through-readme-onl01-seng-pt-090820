@@ -28,8 +28,10 @@ class Customer
 
   def waiters
     my_waiters = []
-    Meal.waiter.name.select do |waiter|
-      my_waiters << waiter
+    Meal.all.select do |meal|
+      binding.pry
+      if meal.waiter.name
+      my_waiters
     end
 
   end
