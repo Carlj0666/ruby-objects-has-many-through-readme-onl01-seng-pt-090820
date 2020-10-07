@@ -33,6 +33,7 @@ class Customer
       if meal.waiter.name
       my_waiters
     end
+    end
 
   end
   
