@@ -28,8 +28,8 @@ class Customer
 
   def waiters
     binding.pry
-    Meal.all.select do |meal|
-    waiters.customer == self
+    self.meals.all.select do |meal|
+    meal.waiter
     end
   end
   
