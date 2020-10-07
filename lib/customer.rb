@@ -26,11 +26,9 @@ class Customer
     end
   end
 
-    def waiters
-      binding.pry
+  def waiters
     Waiter.all.select do |waiter|
-      
-      waiter.customer == self
+    waiter.customer == self
     end
   end
   
