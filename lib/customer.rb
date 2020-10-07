@@ -38,16 +38,5 @@ class Customer
   end
 
 
-  def best_tipper
-    biggest_tip = 0
-    biggest_tipper = "Uncle Money Bags"
-    Meal.all.select do |meal|
-      if meal.waiter.tip > biggest_tip
-        biggest_tipper = meal.customer
-        return biggest_tipper
-      end
-    end
-  end
-
 end
 
