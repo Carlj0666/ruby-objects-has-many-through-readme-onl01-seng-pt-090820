@@ -19,12 +19,9 @@ class Meal
     @@all
   end
   
-  #binding.pry
+
   def meals
     return @@all.meals
   end
   
 end
-
-# #meals
-#       returns an Array of Meal instances associated with this customer (FAILED - 2)
