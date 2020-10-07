@@ -28,7 +28,7 @@ class Customer
 
   def waiters
     Meal.all.select do |meal|
-      binding.pry
+      if meal.waiter.all
     end
 
   end
