@@ -43,7 +43,8 @@ class Customer
     biggest_tipper = "Uncle Money Bags"
     Meal.all.select do |meal|
       if meal.waiter.tip > biggest_tip
-        return meal.customer
+        biggest_tipper = meal.customer
+        return biggest_tipper
       end
     end
   end
