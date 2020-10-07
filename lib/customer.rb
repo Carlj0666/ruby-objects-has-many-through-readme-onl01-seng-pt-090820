@@ -34,8 +34,6 @@ class Customer
       my_waiters
     end
   end
-
-  end
   
 end
 
