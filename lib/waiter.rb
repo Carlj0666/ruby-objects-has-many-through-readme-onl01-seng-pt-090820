@@ -33,6 +33,9 @@ class Waiter
     
     Meal.all.select do |meal|
       binding.pry
+      if biggest_tip < meal.tip
+        meal.tip = biggest_tip
+        
       if meal.customer.name.tip > biggest_tip
         biggest_tipper = meal.customer
         return biggest_tipper
