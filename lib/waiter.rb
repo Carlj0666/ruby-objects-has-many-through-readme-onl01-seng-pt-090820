@@ -36,17 +36,18 @@ class Waiter
       if biggest_tip < meal.tip
         meal.tip = biggest_tip
         biggest_tipper = meal.customer
+        return biggest_tipper
         
         
-        # Meal.all.select do |meal|
+        # Meal.all.select do |meal|  second internal loop?
         #   biggest_tipper = meal.customer
             
             
             
             
-      if meal.customer.name.tip > biggest_tip
-        biggest_tipper = meal.customer
-        return biggest_tipper
+      # if meal.customer.name.tip > biggest_tip
+      #   biggest_tipper = meal.customer
+      #   return biggest_tipper
       end
     end
   end
