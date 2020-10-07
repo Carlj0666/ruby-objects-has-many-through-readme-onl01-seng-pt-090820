@@ -37,7 +37,7 @@ class Customer
     my_waiters
   end
 
-binding.pry
+
   def best_tipper
     biggest_tip = 0
     Meal.all.select do |meal|
