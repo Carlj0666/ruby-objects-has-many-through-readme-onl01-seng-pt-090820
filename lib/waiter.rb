@@ -47,8 +47,9 @@ class Waiter
       #   biggest_tipper = meal.customer
       #   return biggest_tipper
       end
-      return biggest_tipper
+      
     end
+    return biggest_tipper
   end
   
 end
