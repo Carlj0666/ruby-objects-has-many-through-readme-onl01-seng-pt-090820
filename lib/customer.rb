@@ -30,6 +30,8 @@ class Customer
     my_waiters = []
     Meal.all.select do |meal|
       my_waiter = meal.waiter
+      my_waiters << my_waiter
+      my_waiters
     end
     end
 
