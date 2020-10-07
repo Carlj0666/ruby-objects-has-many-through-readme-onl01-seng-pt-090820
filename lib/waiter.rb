@@ -43,8 +43,6 @@ class Waiter
         #   biggest_tipper = meal.customer
             
             
-            
-            
       # if meal.customer.name.tip > biggest_tip
       #   biggest_tipper = meal.customer
       #   return biggest_tipper
