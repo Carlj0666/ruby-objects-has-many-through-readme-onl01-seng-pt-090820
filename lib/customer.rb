@@ -40,6 +40,7 @@ class Customer
 
   def best_tipper
     biggest_tip = 0
+    biggest_tipper = "Uncle Money Bags"
     Meal.all.select do |meal|
       if meal.waiter.tip > biggest_tip
         return meal.customer
