@@ -28,9 +28,8 @@ class Customer
 
   def waiters
     my_waiters = []
-    Meal.all.select do |meal|
-      if meal.waiter
-      my_waiters
+    Meal.waiter.name.select do |waiter|
+      my_waiters << waiter
     end
 
   end
