@@ -32,7 +32,7 @@ class Customer
       if meal.customer == self
       my_waiter = meal.waiter
       my_waiters << my_waiter
-      
+      end
     end
     my_waiters
   end
