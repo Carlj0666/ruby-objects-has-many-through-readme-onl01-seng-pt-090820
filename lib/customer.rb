@@ -29,7 +29,7 @@ class Customer
   def waiters
     my_waiters = []
     Meal.all.select do |meal|
-      my_waiters << meal.waiter
+      if meal.waiter
       my_waiters
     end
 
