@@ -30,6 +30,7 @@ class Waiter
   def best_tipper
     biggest_tip = 0
     biggest_tipper = "Uncle Money Bags"
+    
     Meal.all.select do |meal|
       binding.pry
       if meal.customer.name.tip > biggest_tip
