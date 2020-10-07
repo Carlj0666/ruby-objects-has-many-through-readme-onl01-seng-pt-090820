@@ -36,8 +36,6 @@ class Customer
     end
     my_waiters
   end
-end
+
 end
 
-expected: @experience=1>,#<Waiter:0x0000000002f181a8 @name="Joe", @experience=10>, #<Waiter:0x0000000002f18108 @name="Andrew", @experience=3>]
-     got: @experience=1>,#<Waiter:0x0000000002f181a8 @name="Joe...f181f8 @name="Terrance", @experience=1>, #<Waiter:0x0000000002f18158 @name="Esmery", @experience=2>]
