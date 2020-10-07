@@ -42,7 +42,7 @@ class Customer
     biggest_tip = 0
     Meal.all.select do |meal|
       if meal.waiter.tip > biggest_tip
-        biggest_tip = meal.waiter
+        biggest_tip = meal.customer
       end
     end
   end
