@@ -28,10 +28,6 @@ class Customer
 
   def waiters
     
-    self.meal.all.select do |meal|
-      binding.pry
-    meal.waiter
-    end
   end
   
 end
