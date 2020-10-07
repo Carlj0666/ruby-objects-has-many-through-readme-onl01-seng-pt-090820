@@ -37,5 +37,9 @@ class Customer
     my_waiters
   end
 
+  def best_tipper
+    
+  end
+
 end
 
