@@ -39,7 +39,10 @@ class Customer
 
 binding.pry
   def best_tipper
-    
+    biggest_tip = 0
+    Meal.all.select do |meal|
+      if meal.waiter.tip > biggest_tip
+        biggest_tip = meal.waiter
   end
 
 end
