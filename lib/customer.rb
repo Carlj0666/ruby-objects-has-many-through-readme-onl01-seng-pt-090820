@@ -38,7 +38,7 @@ class Customer
   end
 
   def best_tipper
-    
+    binding.pry
   end
 
 end
