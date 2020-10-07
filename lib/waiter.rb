@@ -27,7 +27,7 @@ class Waiter
     end
   end
   
-    def best_tipper
+  def best_tipper
     biggest_tip = 0
     biggest_tipper = "Uncle Money Bags"
     Meal.all.select do |meal|
