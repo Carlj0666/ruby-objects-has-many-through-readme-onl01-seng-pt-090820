@@ -33,7 +33,7 @@ class Customer
       my_waiters << my_waiter
       my_waiters
     end
-    end
+  end
 
   end
   
